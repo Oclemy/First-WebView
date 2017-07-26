@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tutorials.hp.webviewer.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/urlID"
+        android:title="URL"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/assetsID"
+        android:title="Assets"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/stringID"
+        android:title="String"
+        app:showAsAction="never" />
+</menu>
